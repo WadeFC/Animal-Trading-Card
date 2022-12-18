@@ -1,0 +1,50 @@
+
+*{
+    padding: 0;
+    /* margin: 0; */
+}
+body{
+    color: ◼ ;
+}
+.pack{
+    background-color: yellow;
+    text-align: center;
+    margin: auto;
+    max-width: 25.0rem;
+    max-height: 65rem;
+    padding: 0.1rem;
+    border: 3px solid black ;
+    border-style: dotted;
+    border-radius: 20px;
+}
+
+main img {
+    width: auto;
+    
+}
+.head_line{
+    /* padding: 0.5rem; */
+}
+.picture{
+    /* padding: 1.5rem; */
+
+}
+.details{
+    border: 2px solid gray;
+    margin: auto;
+    max-width: 14.0rem;
+    max-height:45rem;
+    padding: 1.0rem;
+}
+#bck{
+    background-color: white;
+    padding: 0.1rem;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    main img {
+        width: 280px;
+    }
+}
